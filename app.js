@@ -7,7 +7,8 @@ const MongoAdapter = require('@bot-whatsapp/database/mongo')
  * Declaramos las conexiones de Mongo
  */
 
-const MONGO_DB_URI = 'mongodb://0.0.0.0:27017'
+// const MONGO_DB_URI = 'mongodb://0.0.0.0:27017'
+const MONGO_DB_URI = 'mongodb+srv://soporte:123$ontario$123@cluster0.bnus3jr.mongodb.net/?retryWrites=true&w=majority'
 const MONGO_DB_NAME = 'db_bot'
 
 /**
